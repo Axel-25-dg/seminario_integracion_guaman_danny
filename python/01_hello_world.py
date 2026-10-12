@@ -1,5 +1,6 @@
 #programa de saludo
-from pickle import TRUE
+
+from tkinter import TRUE
 
 
 print("!Hola, Sprinfield!")
