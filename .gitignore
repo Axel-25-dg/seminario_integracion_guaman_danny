@@ -1,0 +1,121 @@
+# ==========================================
+# PYTHON & FASTAPI (uv, venv, pycache)
+# ==========================================
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+*.env
+.env.local
+
+# uv cache y archivos temporales
+.uv/
+uv.lock
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instalación / Embalaje de pip
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Logs y bases de datos locales de desarrollo
+*.log
+*.sqlite
+*.sqlite3
+instance/
+.webassets-cache
+
+# Herramientas de pruebas y análisis estático
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ==========================================
+# NODE.JS & NPM
+# ==========================================
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs de npm / yarn / pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Entorno de Node
+.env
+.env.test
+.env.production
+
+# ==========================================
+# ANGULAR
+# ==========================================
+# Directorio de compilación y distribución
+/dist/
+/tmp/
+/out-tsc/
+bazel-out/
+
+# Configuración y caché de Angular CLI
+.angular/
+.cache/
+
+# ==========================================
+# SISTEMA Y EDITORES (OS & IDE)
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editores y Entornos de Desarrollo
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
