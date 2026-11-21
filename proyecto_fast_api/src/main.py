@@ -1,15 +1,9 @@
-from importlib import import_module
-
 from fastapi import FastAPI
-
-PASO = 1
-
-if PASO == 1:
-    router_module = import_module("proyecto_fast_api.routers.paso1_bienvenida")
-elif PASO == 2:
-    router_module = import_module("proyecto_fast_api.routers.paso2_placeholder")
-else:
-    raise ValueError(f"No hay un router configurado para el paso {PASO}")
+from pydantic import BaseModel
+from routers.hello_world import router
+from routers.task_router import task_router
 
 app = FastAPI(title="Curso FastAPI + uv")
-app.include_router(router_module.router)
+
+app.include_router(router)
+app.include_router(task_router)

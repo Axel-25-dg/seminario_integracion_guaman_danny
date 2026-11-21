@@ -1,1 +1,2 @@
-"""Paquete de la aplicación FastAPI."""
+def main() -> None:
+    print("Hello from proyecto-fast-api!")
